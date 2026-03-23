@@ -1,0 +1,32 @@
+{
+  "dataset_name": "shelf_4cluster_15",
+  "algorithm": "Park-Martin with Scale Estimation",
+  "scale_factor": 2.5624245732613793,
+  "hand_eye_transform": [
+    [
+      0.12175762463597795,
+      -0.991642211350551,
+      0.04267089770276503,
+      -0.025794434019171215
+    ],
+    [
+      0.9920806500077037,
+      0.12025058075602857,
+      -0.03627370546410127,
+      0.004734648136842396
+    ],
+    [
+      0.030839337270162772,
+      0.04674957214342563,
+      0.9984304746857158,
+      0.052525642953520316
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "description": "Hand-eye calibration result: X transforms from camera to robot end-effector"
+}

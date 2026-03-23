@@ -1,0 +1,32 @@
+{
+  "dataset_name": "7obj_divangs_15",
+  "algorithm": "Park-Martin with Scale Estimation",
+  "scale_factor": 2.7143028679804595,
+  "hand_eye_transform": [
+    [
+      0.07127693621666953,
+      -0.9944449729598738,
+      0.07745188260018568,
+      -0.020046009145826025
+    ],
+    [
+      0.9974087186139179,
+      0.07029778015971966,
+      -0.015299350883948848,
+      0.007568553974056942
+    ],
+    [
+      0.009769667160111996,
+      0.07834167383560145,
+      0.9968786966046654,
+      0.07348442446169703
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "description": "Hand-eye calibration result: X transforms from camera to robot end-effector"
+}

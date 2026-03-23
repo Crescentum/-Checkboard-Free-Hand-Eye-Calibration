@@ -1,0 +1,32 @@
+{
+  "dataset_name": "shelf_divangs_15",
+  "algorithm": "Park-Martin with Scale Estimation",
+  "scale_factor": 2.5442571631955913,
+  "hand_eye_transform": [
+    [
+      0.08271166423919307,
+      -0.9961081266426716,
+      0.030452924902808348,
+      -0.010119583698164484
+    ],
+    [
+      0.9965661723101366,
+      0.08255508726429595,
+      -0.0063656715147199,
+      -0.010534888879233668
+    ],
+    [
+      0.003826853254547251,
+      0.03087487009102325,
+      0.9995159316344241,
+      0.13695639303778845
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "description": "Hand-eye calibration result: X transforms from camera to robot end-effector"
+}

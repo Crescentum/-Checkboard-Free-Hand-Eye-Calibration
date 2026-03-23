@@ -1,0 +1,7 @@
+debug
+foundation_pose_data
+mujoco_menagerie
+ob_in_base_truth
+!FoundationPose/
+FoundationPose/*
+!FoundationPose/foundationPose_handeye.py

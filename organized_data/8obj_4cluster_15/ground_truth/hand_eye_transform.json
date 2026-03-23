@@ -1,0 +1,71 @@
+{
+  "description": "Ground truth hand-eye transformation for verification",
+  "data_type": "GROUND TRUTH - For evaluation",
+  "has_reference_T": true,
+  "T_reference": {
+    "description": "Reference hand-eye transformation from data file",
+    "note": "This may not match actual data. Use T_computed instead.",
+    "matrix": [
+      [
+        -0.5030255783607219,
+        -0.6120335453483344,
+        0.6099857368663546,
+        0.02596365163799408
+      ],
+      [
+        -0.8636989033954633,
+        0.3691716499753142,
+        -0.3418434389725436,
+        0.21362833133228692
+      ],
+      [
+        -0.016009308768781767,
+        -0.6990967597922361,
+        -0.7143318274120504,
+        0.3653047488868115
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "T_computed": {
+    "description": "Hand-eye transform computed from actual poses (RECOMMENDED)",
+    "method": "mean(inv(robot_poses) @ camera_poses_scaled)",
+    "matrix": [
+      [
+        0.05799229070544243,
+        -0.9959343075752258,
+        0.06305947154760361,
+        0.008467753417789936
+      ],
+      [
+        0.9976593852043152,
+        0.057250309735536575,
+        -0.011898755095899105,
+        -0.0018774952040985227
+      ],
+      [
+        0.008229803293943405,
+        0.06353146582841873,
+        0.9971275329589844,
+        0.17049410939216614
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "translation_std_cm": [
+      1.0203431844711304,
+      1.0196365118026733,
+      1.9809132814407349
+    ],
+    "note": "This is what calibration algorithms should match"
+  }
+}

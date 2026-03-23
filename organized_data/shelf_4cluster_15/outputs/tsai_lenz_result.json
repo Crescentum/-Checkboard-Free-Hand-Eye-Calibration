@@ -1,0 +1,32 @@
+{
+  "dataset_name": "shelf_4cluster_15",
+  "algorithm": "Tsai-Lenz with Scale Estimation",
+  "scale_factor": 2.5804526424584857,
+  "hand_eye_transform": [
+    [
+      0.1331177005293614,
+      -0.9899754430726527,
+      0.04720487177062244,
+      -0.016629100257098964
+    ],
+    [
+      0.9907162578059597,
+      0.131589437624677,
+      -0.03413966058087301,
+      -0.0016164467586367894
+    ],
+    [
+      0.027585763080458185,
+      0.05131122702417981,
+      0.9983016496312839,
+      0.030203635581445135
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "description": "Hand-eye calibration result: X transforms from camera to robot end-effector"
+}

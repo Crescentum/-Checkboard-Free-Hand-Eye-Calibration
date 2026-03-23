@@ -1,0 +1,32 @@
+{
+  "dataset_name": "shelf_divangs_15",
+  "algorithm": "Tsai-Lenz with Scale Estimation",
+  "scale_factor": 2.4817498771489763,
+  "hand_eye_transform": [
+    [
+      0.08815020636923224,
+      -0.9954625884019093,
+      0.03582982290261117,
+      -0.007895206803901425
+    ],
+    [
+      0.9954531721957282,
+      0.08673207978928955,
+      -0.039376748226411115,
+      0.008055541504667953
+    ],
+    [
+      0.036090484653488145,
+      0.039137979349922906,
+      0.99858184215911,
+      0.15271128259224265
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "description": "Hand-eye calibration result: X transforms from camera to robot end-effector"
+}
